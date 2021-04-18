@@ -20,6 +20,30 @@ $(document).ready(function(){
       oga:"music/持修 - 正想著你呢.mp3",
       poster: "https://akstatic.streetvoice.com/music_albums/Ch/ih/ChihSiou_/Us46GxzrJutiTopLZFcVkY.jpg?x-oss-process=image/resize,m_fill,h_600,w_600,limit_0/interlace,1/quality,q_95/sharpen,80/format,jpg"
     },{
+      title:"Castle On The Hill",
+      artist:"Ed Sheeran",
+      mp3:"music/Ed Sheeran - Castle On The Hill.mp3",
+      oga:"music/Ed Sheeran - Castle On The Hill.mp3",
+      poster: "https://upload.wikimedia.org/wikipedia/zh/1/1f/Castle_On_The_Hill.png"
+    },{
+      title:"Jimmy gets high",
+      artist:"Daniel Powter",
+      mp3:"music/Daniel Powter - Jimmy gets high.mp3",
+      oga:"music/Daniel Powter - Jimmy gets high.mp3",
+      poster: "https://lineimg.omusic.com.tw/img/album/1120964.jpg?v=20200325220816"
+	},{
+      title:"It Aint Me",
+      artist:"Kygo & Selena Gomez",
+      mp3:"music/Kygo & Selena Gomez - It Aint Me.mp3",
+      oga:"music/Kygo & Selena Gomez - It Aint Me.mp3",
+      poster: "https://i1.sndcdn.com/artworks-000210790368-23bo48-t500x500.jpg"
+	},{
+	  title:"Faint",
+      artist:"Linkin Park",
+      mp3:"music/Linkin Park - Faint.mp3",
+      oga:"music/Linkin Park - Faint.mp3",
+      poster: "https://lineimg.omusic.com.tw/img/album/1197842.jpg?v=20201008155826"
+	},{
       title:"Ça Ira",
 	  artist:"Joyce Jonathan",
       mp3: "music/Joyce Jonathan - Ça Ira.mp3",
