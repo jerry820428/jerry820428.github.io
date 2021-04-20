@@ -67,5 +67,9 @@ $(document).ready(function(){
 	});
 
   myPlaylist.shuffled = true;
-  myPlaylist.loop = true
+  myPlaylist.loop = true;
+  myPlaylist.shuffle();
+  //myPlaylist.shuffle();
 });
+//myPlaylist.shuffle();
+//myPlaylist.shuffle();
