@@ -65,7 +65,16 @@
 	}
 	
 	function listloop() {
-		myPlaylist.loop = myPlaylist.loop == true ? false : true;
+		if($("#repeat").hasClass("repeating")){
+			$("#repeat").removeClass("repeating");
+		}
+		myPlaylist.loop = true;
+		
+		else {
+			$("#repeat").addClass("repeating");
+			myPlaylist.loop = true;
+		}
+//$("#repeat").removeClass("repeating");
 	}
 	</script>
 </html>
