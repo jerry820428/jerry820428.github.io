@@ -61,14 +61,21 @@
 	</body>
 	<script>
 	function listShuffle() {
-		myPlaylist.shuffle();
+		if($("#shuffle").hasClass("random")){
+			$("#shuffle").removeClass("random");
+			myPlaylist.shuffled = false;
+		} else {
+			myPlaylist.shuffled = true;
+			$("#shuffle").addClass("random");
+		}
 	}
 	
 	function listloop() {
 		if($("#repeat").hasClass("repeating")){
 			$("#repeat").removeClass("repeating");
+			myPlaylist.loop = false;
 		}
-		myPlaylist.loop = true;
+		
 		
 		else {
 			$("#repeat").addClass("repeating");
