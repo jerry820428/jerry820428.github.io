@@ -60,12 +60,14 @@
 		</div>
 	</body>
 	<script>
+	myPlaylist.shuffle();
 	function listShuffle() {
 		if($("#shuffle").hasClass("random")){
 			$("#shuffle").removeClass("random");
-			myPlaylist.shuffled = false;
+			myPlaylist.shuffle();
+			//myPlaylist.shuffled = false;
 		} else {
-			myPlaylist.shuffled = true;
+			//myPlaylist.shuffled = true;
 			myPlaylist.shuffle();
 			$("#shuffle").addClass("random");
 		}
